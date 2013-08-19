@@ -25,7 +25,7 @@ And run the container, connecting port 80:
 sudo docker run -d -t -p 80:80 <yourname>/drupal
 ```
 That's it!
-Visit in a webrowser, on http://localhost/
+Visit http://localhost/ in your webrowser. 
 
 Note: you cannot have port 80 already used or the container will not start.
 In that case you can start by setting: `-p 8080:80`
@@ -35,9 +35,9 @@ In that case you can start by setting: `-p 8080:80`
 
 ### Credentials
 
-ROOT   MYSQL_PASSWORD will be on /mysql-root-pw.txt
-DRUPAL MYSQL PASSWORD will be on /drupal-db-pw.txt
-Drupal account-name=admin & account-pass=admin
+* ROOT   MYSQL_PASSWORD will be on /mysql-root-pw.txt
+* DRUPAL MYSQL PASSWORD will be on /drupal-db-pw.txt
+* Drupal account-name=admin & account-pass=admin
 
 
 ## More docker awesomeness
