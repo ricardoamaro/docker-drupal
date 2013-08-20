@@ -10,17 +10,17 @@ sudo apt-get -y install docker
 curl get.docker.io | sudo sh -x
 ```
 
-## Clone this repo somewhere, and then run:
+## Clone this repo somewhere, 
+```
+git clone https://github.com/ricardoamaro/docker-drupal.git
+cd docker-drupal
+```
+and then build it:
 ```
 sudo docker build -t <yourname>/drupal .
 ```
 
-## Or build directly from github:
-```
-sudo docker build -t <yourname>/drupal git://github.com/ricardoamaro/docker-drupal.git
-```
-
-And run the container, connecting port 80:
+## And run the container, connecting port 80:
 ```
 sudo docker run -d -t -p 80:80 <yourname>/drupal
 ```
@@ -30,6 +30,10 @@ Visit http://localhost/ in your webrowser.
 Note: you cannot have port 80 already used or the container will not start.
 In that case you can start by setting: `-p 8080:80`
 
+build directly from github breaks at the moment:
+```
+sudo docker build -t <yourname>/drupal git://github.com/ricardoamaro/docker-drupal.git
+```
 
 
 
