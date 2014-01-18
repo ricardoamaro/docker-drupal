@@ -6,10 +6,11 @@ To build, make sure you have Docker [installed](http://www.docker.io/gettingstar
 
 ## Install docker:
 ```
-sudo mkdir -p /var/lib/docker/repositories
 curl get.docker.io | sudo sh -x
-sudo apt-get install docker
-
+```
+# kill any running docker daemon
+```
+sudo killall docker
 ```
 
 ## Clone this repo somewhere, 
