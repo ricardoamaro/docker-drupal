@@ -4,13 +4,13 @@ docker-drupal
 This repo contains a recipe for making a [Docker](http://docker.io) container for Drupal, using Linux, Apache and MySQL. 
 To build, make sure you have Docker [installed](http://www.docker.io/gettingstarted/), 
 
+## kill any running docker daemon
+```
+sudo killall docker
+```
 ## Install docker:
 ```
 curl get.docker.io | sudo sh -x
-```
-# kill any running docker daemon
-```
-sudo killall docker
 ```
 
 ## Clone this repo somewhere, 
