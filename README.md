@@ -12,7 +12,6 @@ sudo killall docker
 ```
 ## Install docker:
 ```
-sudo apt-get install docker
 curl get.docker.io | sudo sh -x
 ```
 
