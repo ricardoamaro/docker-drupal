@@ -25,6 +25,8 @@ and then build it:
 sudo docker build -t <yourname>/drupal .
 ```
 
+this can take a while but should eventually return a command prompt. It's done when it says "Successfully built {hash}"
+
 ## And run the container, connecting port 80:
 ```
 sudo docker run -d -t -p 80:80 <yourname>/drupal
@@ -35,11 +37,10 @@ Visit http://localhost/ in your webrowser.
 Note: you cannot have port 80 already used or the container will not start.
 In that case you can start by setting: `-p 8080:80`
 
-build directly from github breaks at the moment:
+build directly from github is broken at the moment:
 ```
 sudo docker build -t <yourname>/drupal git://github.com/ricardoamaro/docker-drupal.git
 ```
-
 
 
 ### Credentials
