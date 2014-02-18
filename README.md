@@ -87,7 +87,7 @@ ricardoamaro/drupal-lamp
 ### Clean up
 While i am developing i use this to rm all old instances
 ```
-sudo docker ps -a | awk '{print $1}' | xargs -n1 -I {} docker rm {}
+sudo docker ps -a | awk '{print $1}' | grep -v CONTAINER | xargs -n1 -I {} docker rm {}
 ``` 
 
 ### Known Issues
