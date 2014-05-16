@@ -106,7 +106,7 @@ Feel free to fork and contribute to this code. :)
 
 ## Authors
 
-Created and maintained by [Ricardo Amaro][author] (<mail@ricardoamaro.com>)
+Created and maintained by [Ricardo Amaro][author] (<mail_at_ricardoamaro.com>)
 
 ## License
 GPL v3
