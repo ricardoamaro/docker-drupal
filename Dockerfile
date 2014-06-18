@@ -1,9 +1,9 @@
 # docker Drupal
 #
-# VERSION       0.2
-# DOCKER-VERSION        0.4
-FROM    ubuntu:latest
-MAINTAINER Ricardo Amaro <mail@ricardoamaro.com>
+# VERSION       1
+# DOCKER-VERSION        1
+FROM    debian:wheezy
+MAINTAINER Ricardo Amaro <mail_at_ricardoamaro.com>
 
 #RUN echo "deb http://archive.ubuntu.com/ubuntu saucy main restricted universe multiverse" > /etc/apt/sources.list
 RUN apt-get update
