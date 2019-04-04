@@ -1,3 +1,8 @@
+This repo is now moved to:
+https://gitlab.com/ricardoamaro/drupal8-docker-app
+and
+https://gitlab.com/ricardoamaro/drupal7-docker-app
+
 docker-drupal
 =============
 
